@@ -1,0 +1,8 @@
+name: linenum
+workers:
+- name: runner
+  github:
+    repo: snormore/linenum
+    branch: master
+  dockerfile_path: Dockerfile
+  run_command: sleep infinity
