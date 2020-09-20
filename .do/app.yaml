@@ -4,5 +4,6 @@ workers:
   github:
     repo: snormore/linenum
     branch: master
+    deploy_on_push: true
   dockerfile_path: Dockerfile
   run_command: sleep infinity
